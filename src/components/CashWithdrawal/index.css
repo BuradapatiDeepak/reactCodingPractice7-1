@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 70%;
+  border-radius: 12px;
+  background-color: #150b3e;
+  padding: 30px;
+  color: #fff;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding-top: 14px;
+  border-radius: 35px;
+  background-color: #c7d2fe;
+  border: none;
+  color: #7c3aed;
+  margin-right: 15px;
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paragraph {
+  color: #585076;
+  font-family: 'Roboto';
+}
+
+.amount {
+  color: #c4c4c4;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.paragraph1 {
+  color: #585076;
+  font-family: 'Roboto';
+  text-align: right;
+}
+
+.upper-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
